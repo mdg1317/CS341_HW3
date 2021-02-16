@@ -1,4 +1,6 @@
-eventHandler = function ( event ) {	
+// Matthew Groh
+
+orderEvent = function ( event ) {	
 	// if "vegan" is in the Notes
 	if($("#notes").val().includes("vegan")){
 		alert("NOTE: These cheesecakes contain dairy.");
@@ -34,5 +36,5 @@ eventHandler = function ( event ) {
 }
 
 $(function() {
-	$("#buttonOrder").click(eventHandler);
+	$("#buttonOrder").click(orderEvent);
 });
