@@ -1,0 +1,23 @@
+/* Matthew Groh */
+
+/* Page Background */
+body {
+	background-color: #E50038;
+}
+
+/* Page Header */
+h1 {
+	background-color: #C7BB89;
+	color: #E50038;
+}
+
+/* Fonts */
+.cursive { font-family: "Lucida Handwriting" ; }
+.helvetica { font-family: Helvetica ; }
+
+/* "Total Orders This Month" */
+h3 {
+	background-color: #C7BB89;
+	color: #E50038;
+}
+
