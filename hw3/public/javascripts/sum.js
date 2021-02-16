@@ -1,3 +1,5 @@
+// Matthew Groh
+
 function sum(a, b) {
 	return a + b;
 }
